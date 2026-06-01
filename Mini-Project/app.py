@@ -1,4 +1,3 @@
-
 import streamlit as st
 import requests
 from urllib.parse import urlparse
@@ -192,12 +191,19 @@ elif page == "Why Us":
 elif page == "Login":
     st.title(t("login_title"))
     with st.form("login_form"):
-        st.text_input(t("login_user"), placeholder="admin")
-        st.text_input(t("login_pass"), type="password", placeholder="****")
+        # Assign the inputs to variables
+        username = st.text_input(t("login_user"), placeholder="Michael.Herzog")
+        password = st.text_input(t("login_pass"), type="password", placeholder="****")
         submitted = st.form_submit_button(t("login_btn"))
+        
         if submitted:
-            login()
-            st.rerun()
+            # Check for the specific username and password
+            if username == "Michael.Herzog" and password == "12345":
+                login()
+                st.rerun()
+            else:
+                # Display an error if the credentials don't match
+                st.error("Invalid username or password. Please try again.")
 
 elif page == "Dashboard":
     if not st.session_state.logged_in:

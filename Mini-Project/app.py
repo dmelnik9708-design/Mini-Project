@@ -192,7 +192,7 @@ elif page == "Login":
     st.title(t("login_title"))
     with st.form("login_form"):
         # Assign the inputs to variables
-        username = st.text_input(t("login_user"), placeholder="Michael.Herzog")
+        username = st.text_input(t("login_user"), placeholder="Login")
         password = st.text_input(t("login_pass"), type="password", placeholder="****")
         submitted = st.form_submit_button(t("login_btn"))
         

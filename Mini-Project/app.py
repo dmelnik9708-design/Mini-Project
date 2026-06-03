@@ -65,7 +65,7 @@ texts = {
         "h_headers": "Security Headers",
         "p_headers": "Security headers are instructions sent by the server to the browser to restrict certain behaviors and prevent attacks:\n* **Content-Security-Policy (CSP):** Prevents Cross-Site Scripting (XSS). Cross-Site Scripting is an attack where a script is injected into a login field, for example, to steal user data and transfer it to a hacker.\n* **X-Frame-Options:** Prevents clickjacking. Clickjacking (or \"UI redressing\") is a malicious cyberattack where a hacker uses transparent or opaque layers to trick you into clicking a link or button on a webpage different from what you intended. Essentially, they \"hijack\" your clicks to perform unintended actions.\n* **Strict-Transport-Security (HSTS):** Forces the browser to strictly use secure HTTPS connections."
     },
-    "GE": {
+    "DE": {
         "nav_home": "Startseite", 
         "nav_about": "Über uns", 
         "nav_why": "Warum wir", 

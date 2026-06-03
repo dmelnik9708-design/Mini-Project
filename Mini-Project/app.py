@@ -76,10 +76,9 @@ texts = {
         "h_https": "HTTP vs HTTPS",
         "p_https": "HTTP überträgt Daten im Klartext, was sie anfällig für das Abfangen macht. HTTPS verschlüsselt diese Daten. Eine sichere Website sollte immer in HTTPS geladen werden und HTTP-Datenverkehr automatisch umleiten.",
         "h_headers": "Sicherheits-Header",
-        "p_headers": "Sicherheits-Header sind Anweisungen, die vom Server an den Browser gesendet werden, um bestimmte Angriffe zu verhindern:\n* **Content-Security-Policy (CSP):** Verhindert Cross-Site Scripting (XSS). Cross-Site Scripting (XSS) ist eine Angriffsmethode, bei der ein bösartiges Skript in eine Website eingeschleust wird, beispielsweise über ein Anmeldefeld. Dieses Skript kann anschließend Benutzerdaten stehlen und an einen Hacker weiterleiten.\n* **X-Frame-Options:** Verhindert Clickjacking. unintended actions. Clickjacking (oder „UI-Redressing“) ist ein bösartiger Cyberangriff, bei dem ein Hacker transparente oder undurchsichtige Ebenen verwendet, um dich dazu zu bringen, auf einen Link oder eine Schaltfläche auf einer Webseite zu klicken, die nicht der entspricht, die du eigentlich anklicken wolltest. Im Grunde „kapern“ sie deine Klicks, um unbeabsichtigte Aktionen auszuführen.\n* **Strict-Transport-Security (HSTS):** Erzwingt, dass der Browser ausschließlich sichere HTTPS-Verbindungen nutzt."
+        "p_headers": "Sicherheits-Header sind Anweisungen, die vom Server an den Browser gesendet werden, um bestimmte Angriffe zu verhindern:\n* **Content-Security-Policy (CSP):** Verhindert Cross-Site Scripting (XSS). Cross-Site Scripting (XSS) ist eine Angriffsmethode, bei der ein bösartiges Skript in eine Website eingeschleust wird, beispielsweise über ein Anmeldefeld. Dieses Skript kann anschließend Benutzerdaten stehlen und an einen Hacker weiterleiten.\n* **X-Frame-Options:** Verhindert Clickjacking. Clickjacking (oder \"UI-Redressing\") ist ein bösartiger Cyberangriff, bei dem ein Hacker transparente oder undurchsichtige Ebenen verwendet, um dich dazu zu bringen, auf einen Link oder eine Schaltfläche auf einer Webseite zu klicken, die nicht der entspricht, die du eigentlich anklicken wolltest. Im Grunde \"kapern\" sie deine Klicks, um unbeabsichtigte Aktionen auszuführen.\n* **Strict-Transport-Security (HSTS):** Erzwingt, dass der Browser ausschließlich sichere HTTPS-Verbindungen nutzt."    }
+        }
     }
-}
-
 # Helper function to get text based on current language
 def t(key):
     return texts[st.session_state.language][key]

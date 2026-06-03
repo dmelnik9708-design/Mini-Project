@@ -23,8 +23,7 @@ texts = {
         "nav_login": "Login", "nav_dash": "Dashboard", "nav_logout": "Logout",
         "lang_toggle": "🌍 Language",
         "home_title": "Welcome to WebCheck Pro",
-        "home_desc": "Welcome to the Website Security Checker, a school project developed to analyze and evaluate website security and performance. This tool allows users to test website availability, compare HTTP and HTTPS connections, and check important security headers such as Content-Security-Policy, X-Frame-Options, and Strict-Transport-Security.
-The goal of this project is to demonstrate practical knowledge in Python programming, web technologies, and cybersecurity while helping users better understand the security configuration of websites. Please log in to access the dashboard and explore the available website analysis and security checking features.",
+        "home_desc": "Welcome to the Website Security Checker, a school project developed to analyze and evaluate website security and performance. This tool allows users to test website availability, compare HTTP and HTTPS connections, and check important security headers such as Content-Security-Policy, X-Frame-Options, and Strict-Transport-Security. The goal of this project is to demonstrate practical knowledge in Python programming, web technologies, and cybersecurity while helping users better understand the security configuration of websites. Please log in to access the dashboard and explore the available website analysis and security checking features.",
         "about_title": "About Us",
         "about_desc": "We are a team of web enthusiasts dedicated to making the internet faster, safer, and more accessible.",
         "why_title": "Why Us",
@@ -54,8 +53,7 @@ The goal of this project is to demonstrate practical knowledge in Python program
         "nav_login": "Anmelden", "nav_dash": "Dashboard", "nav_logout": "Abmelden",
         "lang_toggle": "🌍 Sprache",
         "home_title": "Willkommen bei WebCheck Pro",
-        "home_desc": "Willkommen beim Website Security Checker. Dieses Schulprojekt wurde entwickelt, um die Sicherheit und Erreichbarkeit von Webseiten zu analysieren. Das System überprüft HTTP- und HTTPS-Verbindungen, analysiert wichtige Sicherheits-Header und hilft dabei, mögliche Schwachstellen einer Website zu erkennen.
-Das Ziel dieses Projekts ist es, praktische Erfahrungen in den Bereichen Python-Programmierung, Webtechnologien und Cybersicherheit zu sammeln. Melden Sie sich an, um das Dashboard zu nutzen und verschiedene Sicherheitsprüfungen auf Webseiten durchzuführen.",
+        "home_desc": "Willkommen beim Website Security Checker. Dieses Schulprojekt wurde entwickelt, um die Sicherheit und Erreichbarkeit von Webseiten zu analysieren. Das System überprüft HTTP- und HTTPS-Verbindungen, analysiert wichtige Sicherheits-Header und hilft dabei, mögliche Schwachstellen einer Website zu erkennen. Das Ziel dieses Projekts ist es, praktische Erfahrungen in den Bereichen Python-Programmierung, Webtechnologien und Cybersicherheit zu sammeln. Melden Sie sich an, um das Dashboard zu nutzen und verschiedene Sicherheitsprüfungen auf Webseiten durchzuführen.",
         "about_title": "Über uns",
         "about_desc": "Wir sind ein Team von Web-Enthusiasten, die sich dafür einsetzen, das Internet schneller, sicherer und zugänglicher zu machen.",
         "why_title": "Warum wir",

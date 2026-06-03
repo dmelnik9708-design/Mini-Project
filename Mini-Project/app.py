@@ -23,7 +23,8 @@ texts = {
         "nav_login": "Login", "nav_dash": "Dashboard", "nav_logout": "Logout",
         "lang_toggle": "🌍 Language",
         "home_title": "Welcome to WebCheck Pro",
-        "home_desc": "Welcome to the Website Security Checker, a school project developed to analyze and evaluate website security and performance. This tool allows users to test website availability, compare HTTP and HTTPS connections, and check important security headers such as Content-Security-Policy, X-Frame-Options, and Strict-Transport-Security. \nThe goal of this project is to demonstrate practical knowledge in Python programming, web technologies, and cybersecurity while helping users better understand the security configuration of websites. Please log in to access the dashboard and explore the available website analysis and security checking features.",
+        "home_desc": "Welcome to the Website Security Checker, a school project developed to analyze and evaluate website security and performance. This tool allows users to test website availability, compare HTTP and HTTPS connections, and check important security headers such as Content-Security-Policy, X-Frame-Options, and Strict-Transport-Security. 
+            The goal of this project is to demonstrate practical knowledge in Python programming, web technologies, and cybersecurity while helping users better understand the security configuration of websites. Please log in to access the dashboard and explore the available website analysis and security checking features.",
         "about_title": "About Us",
         "about_desc": "We are a team of web enthusiasts dedicated to making the internet faster, safer, and more accessible.",
         "why_title": "Why Us",

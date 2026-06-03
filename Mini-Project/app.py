@@ -198,7 +198,7 @@ elif page == "Login":
         
         if submitted:
             # Check for the specific username and password
-            if username == "Michael.Herzog" and password == "12345":
+            if username == "Michael.Herzog" and password == "Admin.Panel.Herzog":
                 login()
                 st.rerun()
             else:
